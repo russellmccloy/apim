@@ -1,3 +1,3 @@
-# apimThis is a general repos
+# apim
 
-itory related to Azure API management
+This is a general repository related to Azure API management
