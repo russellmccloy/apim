@@ -18,18 +18,18 @@
     The storage container to backup to
 #>
 
-param (
-
+param 
+(
     [Parameter(Mandatory = $true)]
     [string] $sourceResourceGroupName,
 
-	[Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $true)]
     [string] $sourceApiManagementInstance,
 
     [Parameter(Mandatory = $true)]
-	[string] $storageAccountName,
+    [string] $storageAccountName,
 
-	[Parameter(Mandatory = $true)]
+    [Parameter(Mandatory = $true)]
     [string] $storageContainerName
 )
 
